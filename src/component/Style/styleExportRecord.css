@@ -1,0 +1,41 @@
+  .result-section{
+    background-color: red;
+    border-radius: 30px 30px 0 0;
+  }
+  .logo-header img {
+    height: 60px; /* Set the height of the logo */
+    width: auto; /* Maintain aspect ratio */
+  }
+  
+  /* Info row styling */
+  .info-row {
+    display: flex;
+    margin-bottom: 10px; /* Space between rows */
+  }
+  
+  .info-row h3 {
+    font-size: 16px; /* Font size for labels */
+    color: #fcfbfb; /* Dark text color */
+    margin-left: 15px; /* Remove default margin */
+  }
+  
+  .info-row p {
+    font-size: 16px; /* Font size for content */
+    color: #fefbfb; /* Slightly lighter text color */
+    padding-left: 10px; /* Space between label and content */
+  }
+  
+  /* Status icon column styling */
+  .status-icon-col {
+    display: flex;
+    align-items: center; /* Vertically center the icon */
+    justify-content: center; /* Horizontally center the icon */
+    padding: 10px; /* Padding around the icon */
+  }
+  
+
+  
+ 
+  
+ 
+  
