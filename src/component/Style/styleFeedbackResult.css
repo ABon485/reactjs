@@ -14,8 +14,7 @@
 .table-item {
   background-color: #ffffff; 
   border-radius: 8px; 
-  padding: 16px; 
-  margin-bottom: 5px; 
+  margin: 5px; 
   border: 1px solid #dbd9d9; 
   transition: all 0.3s ease; 
   display: flex;
@@ -47,5 +46,15 @@
   display: flex;
   flex-direction: column;
   flex-grow: 1; /* Ensures all columns are stretched equally */
+}
+
+.vertical-line-left {
+  border-left: 8px solid #00bfff; /* Màu xanh dương */
+  padding-left: 8px; /* Khoảng cách từ thanh dọc đến nội dung */
+}
+
+.vertical-line-right {
+  border-right: 8px solid #00bfff; /* Màu xanh dương */
+  padding-right: 8px; /* Khoảng cách từ thanh dọc đến nội dung */
 }
 
